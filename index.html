@@ -63,7 +63,7 @@
             <h2>Hola, soy <span>Martin Santucho</span></h2>
             <h3>desarrollador web</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eum.</p>
-            <a href="docs/CVMS.pdf" target="_blank">Ver CV</a>
+            <a href="docs/CV.pdf" target="_blank">Ver CV</a>
         </div>
     </section>
 
@@ -132,16 +132,17 @@
     <section id="contacto">
         <h3 class="titulo-seccion">Contactame ahora</h3>
         <div class="contenedor-form">
-            <form action="">
+            <form action="https://formspree.io/f/xknendnw"
+            method="POST">
                 <div class="fila mitad">
                     <input type="text" placeholder="Nombre Completo" class="input-mitad">
-                    <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                    <input type="text" name="Email" placeholder="Direccion de Email" class="input-mitad">
                 </div>
                 <div class="fila">
-                    <input type="text" placeholder="Tema..." class="input-full">
+                    <input type="text" name="Asunto" placeholder="Tema..." class="input-full">
                 </div>
                 <div class="fila">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                    <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
                 </div>
 
                 <input type="submit" value="Enviar Mensaje" class="btn-enviar">
